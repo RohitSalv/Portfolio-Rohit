@@ -66,9 +66,22 @@ export default function Hero() {
                         I transform complex problems into scalable, efficient solutions. With a passion for clean code and modern technologies, I build applications that not only work but create impact.
 
                     </p>
-                    <button className="bg-gradient-to-r from-[#FF8C61] to-[#FF6B4E] text-white px-10 py-4 rounded-full font-bold text-lg shadow-[0_10px_20px_rgba(255,107,78,0.3)] hover:-translate-y-1 hover:shadow-[0_15px_30px_rgba(255,107,78,0.4)] transition-all duration-300 cursor-pointer border-none self-center md:self-auto">
-                        Contact Me
-                    </button>
+                    <div className="flex flex-col sm:flex-row gap-4 self-center md:self-auto pt-4">
+                        <a
+                            href="#contact"
+                            className="bg-gradient-to-r from-[#FF8C61] to-[#FF6B4E] text-white px-10 py-4 rounded-full font-bold text-lg shadow-[0_10px_20px_rgba(255,107,78,0.3)] hover:-translate-y-1 hover:shadow-[0_15px_30px_rgba(255,107,78,0.4)] transition-all duration-300 cursor-pointer border-none text-center"
+                        >
+                            Contact Me
+                        </a>
+                        <div className="flex items-center gap-4">
+                            <a href="https://github.com/RohitSalv" target="_blank" className="p-3 bg-white rounded-full shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                                <Image src="/Icons/github1.png" alt="GitHub" width={30} height={30} />
+                            </a>
+                            <a href="https://www.linkedin.com/in/rohit-salve-6054b324a/" target="_blank" className="p-3 bg-white rounded-full shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                                <Image src="/Icons/linkedin.webp" alt="LinkedIn" width={30} height={30} />
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Right Content - Avatar Image */}

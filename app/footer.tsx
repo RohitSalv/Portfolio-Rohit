@@ -10,15 +10,13 @@ export default function Footer() {
                     <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
                         "Not just fixing bugs, I also debug life — future full stack dev, building things that matter!"
                     </p>
-                    <div className="flex items-center bg-white rounded-full p-1 shadow-md max-w-sm">
-                        <input
-                            type="email"
-                            placeholder="Email address"
-                            className="flex-1 bg-transparent border-none outline-none px-4 text-sm text-gray-600 placeholder-gray-400"
-                        />
-                        <button className="bg-gradient-to-r from-[#FF8C61] to-[#FF6B4E] text-white px-6 py-2 rounded-full font-bold text-sm shadow-[0_4px_10px_rgba(255,107,78,0.3)] hover:shadow-[0_8px_20px_rgba(255,107,78,0.4)] transition-all cursor-pointer">
-                            Subscribe
-                        </button>
+                    <div className="pt-2">
+                        <a
+                            href="mailto:salver814@gmail.com"
+                            className="inline-block bg-gradient-to-r from-[#FF8C61] to-[#FF6B4E] text-white px-8 py-3 rounded-full font-bold text-sm shadow-[0_4px_10px_rgba(255,107,78,0.3)] hover:shadow-[0_8px_20px_rgba(255,107,78,0.4)] hover:-translate-y-1 transition-all cursor-pointer"
+                        >
+                            Let's Talk
+                        </a>
                     </div>
                 </div>
 
